@@ -14,61 +14,23 @@
             "x": 0.9095238095238096,
             "y": 0.4450402144772118,
             "uniqueID": "48e478e1-0d09-4a72-927f-e02fd41b1951",
-            "ioValues": [
-                {
-                    "name": "number or geometry",
-                    "ioValue": "84597d30-d9b6-4d0e-9863-caf08e90823d"
-                }
-            ],
+            "ioValues": [],
             "description": "Connect geometry here to make it available in the next level up. "
         },
         {
             "atomType": "Import",
             "name": "Import",
-            "x": 0.33537414965986395,
-            "y": 0.7345844504021447,
-            "uniqueID": "84597d30-d9b6-4d0e-9863-caf08e90823d",
+            "x": 0.3333333333333333,
+            "y": 0.5951742627345845,
+            "uniqueID": "be2b3f54-53a8-48d9-9b07-7d93d65d54eb",
             "ioValues": [],
             "description": "Import Atom, let's you choose a type of file to import and use in your design.",
-            "fileName": "bitmap.svg",
+            "fileName": "abtest.svg",
             "type": "SVG",
             "SVGwidth": 10
-        },
-        {
-            "atomType": "Extrude",
-            "name": "Extrude",
-            "x": 0.3965986394557823,
-            "y": 0.5603217158176943,
-            "uniqueID": "35fdd759-1b80-47e5-ba43-27205fe66084",
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": "84597d30-d9b6-4d0e-9863-caf08e90823d"
-                },
-                {
-                    "name": "height",
-                    "ioValue": 1
-                }
-            ],
-            "description": "Extrudes a 2D shape. Input can be negitive. "
         }
     ],
-    "allConnectors": [
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "number or geometry",
-            "ap2Primary": false,
-            "ap1ID": "84597d30-d9b6-4d0e-9863-caf08e90823d",
-            "ap2ID": "48e478e1-0d09-4a72-927f-e02fd41b1951"
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
-            "ap1ID": "84597d30-d9b6-4d0e-9863-caf08e90823d",
-            "ap2ID": "35fdd759-1b80-47e5-ba43-27205fe66084"
-        }
-    ],
+    "allConnectors": [],
     "unitsKey": "Inches",
     "fileTypeVersion": 1,
     "compiledBom": {},
