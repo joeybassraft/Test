@@ -20,12 +20,12 @@
         {
             "atomType": "Import",
             "name": "Import",
-            "x": 0.3333333333333333,
-            "y": 0.5951742627345845,
-            "uniqueID": "be2b3f54-53a8-48d9-9b07-7d93d65d54eb",
+            "x": 0.33877551020408164,
+            "y": 0.6112600536193029,
+            "uniqueID": "99b87769-5a94-4c1b-86b8-2f32dfcdf078",
             "ioValues": [],
             "description": "Import Atom, let's you choose a type of file to import and use in your design.",
-            "fileName": "abtest.svg",
+            "fileName": "g1.svg",
             "type": "SVG",
             "SVGwidth": 10
         }
