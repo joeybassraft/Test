@@ -7,7 +7,61 @@
     "ioValues": [],
     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
     "topLevel": true,
-    "allAtoms": [],
+    "allAtoms": [
+        {
+            "atomType": "Output",
+            "name": "Output",
+            "x": 0.9095238095238096,
+            "y": 0.4450402144772118,
+            "uniqueID": "48e478e1-0d09-4a72-927f-e02fd41b1951",
+            "ioValues": [],
+            "description": "Connect geometry here to make it available in the next level up. "
+        },
+        {
+            "atomType": "Circle",
+            "name": "Circle",
+            "x": 0.38231292517006804,
+            "y": 0.5710455764075067,
+            "uniqueID": "bdc18e1a-11b9-4385-8059-3e0ffe51f272",
+            "ioValues": [
+                {
+                    "name": "diameter",
+                    "ioValue": 200
+                }
+            ],
+            "description": "Creates a new circle."
+        },
+        {
+            "atomType": "Extrude",
+            "name": "Extrude",
+            "x": 0.3047619047619048,
+            "y": 0.5254691689008043,
+            "uniqueID": "8333b18d-2d53-452a-b628-3e13fe01b8f1",
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": ""
+                },
+                {
+                    "name": "height",
+                    "ioValue": 10
+                }
+            ],
+            "description": "Extrudes a 2D shape. Input can be negitive. "
+        },
+        {
+            "atomType": "Import",
+            "name": "Import",
+            "x": 0.33537414965986395,
+            "y": 0.7372654155495978,
+            "uniqueID": "84597d30-d9b6-4d0e-9863-caf08e90823d",
+            "ioValues": [],
+            "description": "Import Atom, let's you choose a type of file to import and use in your design.",
+            "fileName": "bitmap.svg",
+            "type": "SVG",
+            "SVGwidth": 10
+        }
+    ],
     "allConnectors": [],
     "unitsKey": "Inches",
     "fileTypeVersion": 1,
